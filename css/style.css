@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    color: whitesmoke;
+}
+.container{
+    background-color: #18181E;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 10px 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+
+/* -------------------------------
+---header part code start hear---
+--------------------------------*/
+
+.profile-img{
+    height: 160px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+    margin-top: 25px;
+}
+.header-bio h1 a{
+    color: teal;
+    text-decoration: none;
+}
+.header-bio h1 a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.header-contract{
+    float: right;
+    padding: 30px;
+    margin-top: 30px;
+}
+.header-contract a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.common-hr{
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+/* ===================================
+===personal-section code start hear===
+=====================================*/
+
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.content-left{
+    width: 30%;
+    float: left;
+}
+.content-right{
+    width: 70%;
+    float: left;
+}
+
+/* ===================================
+===experience-section code end hear===
+=====================================*/
+
+.content-right p{
+    text-align: justify;
+}
+.content-right h5 a{
+    color: teal;
+    text-decoration: none;
+}
+.left h5 a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.right h5 a{
+    text-decoration: none;
+    color: whitesmoke; 
+}
+.content-right h5 a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.content-right .left{
+    float: left;
+    width: 50%;
+}
+
+.content-right .right{
+    float: left;
+    width: 50%;
+}
+
+
+
+.content-right .left p a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.content-right .left p a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.content-right .right p a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.content-right .right p a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.content-right .left h3 a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.content-right .left h3 a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.content-right .right h3 a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.content-right .right h3 a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.footer-saction{
+    background-color:#060413f2; 
+    height: 100px;
+    width: 1000px;
+    margin: 0px auto;
+    padding: 10px 50px;
+}
+/* ===================================
+===personal-section code start hear===
+=====================================*/
+.footer-saction{
+    padding-top: 60px;
+}
+.mail{
+    padding-top: ;
+    float: left;
+    width: 50%;
+    background-color: ;
+    
+}
+
+#email{
+    width: 40%;
+    
+    
+}
+.icon{
+    float: left;
+    width: 50%;
+    
+}
+.ic a{
+    height: 35px;
+    width: 35px;
+    border: 1px solid whitesmoke;
+    border-radius: 100%;
+    background-color: rgb(12, 100, 80);
+    float: right;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 4px 2px 2px 4px;
+    backface-visibility: hidden;
+    margin-left: 20px;
+    
+}
+
+.ic a:hover{
+    background-color: whitesmoke;
+    color: rgb(12, 100, 80);
+    transition: all linear .4s;
+    filter: blur(25px);
+}
+
+
+/* ===================================
+===personal-section code end hear===
+=====================================*/
